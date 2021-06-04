@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Calculadora de Salário Líquido">
+    <meta name="author" content="Eduarda Mylla Giovana">
+    <title>Calculadora de Salário Líquido</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="front">
+            <div class="title">
+                <h1 class="title__title">Calcule seu salário líquido</h1>
+            </div>
+    </nav>
+
+    <div id="divform">
+        <form>
+            <label for="nome" id="lblnome">Nome completo:</label>
+            <input type="text" name="nome" id="nome" value="">
+            <br>
+            <label for="salarioBruto">Sua renda mensal:</label>
+            <input type="number" name="salarioBruto" id="salarioBruto">
+            <br>
+            <label for="dependentes" id="lbldependentes">Dependentes:</label>
+            <input type="number" name="dependentes" id="dependentes" value="">
+
+        </form>
+        <div id="div-btn">
+            <button onclick="salarioL()" class="btn"><i class="fa fa-calculator"></i></button>
+            <button onclick="reloadPage()" class="btn" id="btn-reload"><i class="fa fa-undo"></i></button>
+        </div>
+    </div>
+
+    <div>
+        <table id="tabela">
+            <thead>
+                <th>Nome</th>
+                <th>Salário Bruto</th>
+                <th>Desconto INSS</th>
+                <th>Desconto IRPF</th>
+                <th>Salário Líquido</th>
+            </thead>
+        </table>
+    </div>
+    <br>
+
+    <script src="script.js" charset="utf-8"></script>
+    <footer>Imposto de Renda © 2021.</footer>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+  }
+
+  
+  body {
+      background-color: #ff99f1;
+    background-image: url(../img/money.png);
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: contain;
+    background-repeat:repeat;
+   }
+  
+  nav{
+      background-color:#a3256e;
+      color: white;
+      font-size: 2vw;
+      padding: 1vw;
+      text-align:center;
+  
+  }
+
+  #text-nav{  
+      display:inline;
+      width: 50%;
+      float:right;
+      margin-top: -4.5vw;
+      font-weight:bold;
+      text-transform:uppercase;
+      text-align:center;
+      margin-right: 10vw;
+
+  }
+  
+  #divform {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+  
+  form {
+    background-color: #fd89da;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-top: 5vw;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 2vw;
+  }
+  
+  label {
+    margin-left: 2vw;
+    font-size: 3vw;
+  }
+  
+  input {
+    display: block;
+    width: 80%;
+    height: 3vw;
+    margin-left: 10%;
+    border:solid 1px black;
+  }
+  #salarioBruto{
+    width: 40%;
+  }
+  
+  #div-btn {
+      display: flex;
+      flex-direction: row;
+       padding-left: 15vw;
+      margin-left:10%;
+      width:80%;
+  }
+  
+  .btn {
+    margin: 4vw;
+    padding: 1vw;
+    width: 10vw;
+    border: solid 2px rgba(255, 154, 216, 0.452);
+    border-radius: 10px;
+    font-size: 3.5vw;
+  }
+  /* tabela */
+  table {
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+  }
+  
+  th {
+    background-color: white;
+    font-size: 2vw;
+  }
+  
+  td {
+    background-color: rgb(250, 111, 197);
+    font-size: 2vw;
+    padding: 0.3vw;
+    color: white;
+    font-weight:bold;
+  }
+  
+  /* footer */
+  footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff52;
+    color: white;
+    width: auto;
+  }
